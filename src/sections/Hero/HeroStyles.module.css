@@ -77,6 +77,31 @@
   gap: 20px;
 }
 
+@media (width >= 200px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .hero {
+      max-width: 75px;
+      width: 75px;
+    }
+  }
+ }
+
+
+@media (width >= 400px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .hero {
+      max-width: 175px;
+      width: 175px;
+    }
+  }
+ }
+
 @media (width >= 800px) {
   .container {
     flex-direction: row-reverse;
