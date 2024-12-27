@@ -23,6 +23,10 @@
         width: 30px;
       }
     }
+    a:hover{
+      transform: scale(1.6);
+    }
+    
   }
 
   a {
@@ -51,6 +55,19 @@
     transform: translateY(2px);
     box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
   }
+}
+
+.Hero {
+  height: 400px;
+  width: 400px;
+  background-size: cover;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.Hero:hover {
+  transform: scale(1.08);
+  transition: 1s ease-out;
 }
 
 .colorModeContainer {
@@ -82,6 +99,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    .Hero{
+      height: 180px;
+      width: 180px;
+    }
     .hero {
       max-width: 75px;
       width: 75px;
@@ -95,6 +116,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    .Hero{
+      height: 240px;
+      width: 240px;
+    }
     .hero {
       max-width: 175px;
       width: 175px;
@@ -107,7 +132,10 @@
     flex-direction: row-reverse;
     align-items: center;
     justify-content: space-evenly;
-
+    .Hero{
+      height: 350px;
+      width: 350px;
+    }
     .hero {
       max-width: 350px;
       width: 350px;
@@ -117,6 +145,10 @@
 
 @media (width >= 1400px) {
   .container {
+    .Hero{
+      height: 400px;
+      width: 400px;
+    }
     .hero {
       max-width: 400px;
       width: 400px;
