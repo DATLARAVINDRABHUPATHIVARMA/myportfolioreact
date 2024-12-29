@@ -93,8 +93,8 @@
   flex-direction: column;
   gap: 20px;
   h1:hover{
-    transform: scale(1.03);
-    color: rgb(4, 0, 53);
+    transform: scale(1.05);
+    color: rgb(17, 133, 156);
   }
 }
 
