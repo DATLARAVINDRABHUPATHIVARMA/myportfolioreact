@@ -16,18 +16,20 @@
     background-color: var(--project-card-bg);
     border-radius: 8px;
   }
-  img:hover{
-    transform: scale(0.9);
-  }
   h4{
     color: var(--text-color);
     font-family: "Roboto";
   }
 }
 
+.container:hover{
+  transform: rotate3d(0,1,0,360deg);
+  transition: transform 1500ms ease-in-out;
+}
+
 .skillList {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-self: center;
   flex-wrap: wrap;
   row-gap: 40px;
