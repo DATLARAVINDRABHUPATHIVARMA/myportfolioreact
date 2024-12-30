@@ -1,4 +1,5 @@
 import styles from './ContactStyles.module.css';
+import Swal from 'sweetalert2';
 
 function Contact() {
   const onSubmit = async (event) => {
@@ -20,7 +21,12 @@ function Contact() {
     }).then((res) => res.json());
 
     if (res.success) {
-      console.log("Success", res);
+      Swal.fire({
+        title: "Thank you for contacting me!",
+        width: 700,
+        padding: "3em"
+      });
+      
     }
   };
   return (
