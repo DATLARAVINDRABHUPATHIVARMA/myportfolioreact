@@ -23,10 +23,9 @@
         width: 30px;
       }
     }
-    a:hover{
+    a:hover {
       transform: scale(1.6);
     }
-    
   }
 
   a {
@@ -58,8 +57,8 @@
 }
 
 .Hero {
-  height: 400px;
-  width: 400px;
+  height: 360px;
+  width: 360px;
   background-size: cover;
   border-radius: 50%;
   background-repeat: no-repeat;
@@ -92,7 +91,7 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  h1:hover{
+  h1:hover {
     transform: scale(1.05);
     color: rgb(0, 109, 131);
   }
@@ -103,7 +102,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .Hero{
+    .Hero {
       height: 180px;
       width: 180px;
     }
@@ -112,15 +111,14 @@
       width: 75px;
     }
   }
- }
-
+}
 
 @media (width >= 300px) {
   .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .Hero{
+    .Hero {
       height: 240px;
       width: 240px;
     }
@@ -129,16 +127,16 @@
       width: 175px;
     }
   }
- }
+}
 
 @media (width >= 800px) {
   .container {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    .Hero{
-      height: 350px;
-      width: 350px;
+    .Hero {
+      height: 320px;
+      width: 320px;
     }
     .hero {
       max-width: 350px;
@@ -147,14 +145,14 @@
   }
 }
 
-@media (width >= 1400px) {
+@media (width >= 1350px) {
   .container {
     flex-direction: row-reverse;
-align-items: center;
-justify-content: center;
-    .Hero{
-      height: 400px;
-      width: 400px;
+    align-items: center;
+    justify-content: center;
+    .Hero {
+      height: 360px;
+      width: 360px;
     }
     .hero {
       max-width: 400px;

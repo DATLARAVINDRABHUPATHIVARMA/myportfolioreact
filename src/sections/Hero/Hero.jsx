@@ -50,7 +50,7 @@ function Hero() {
         </span>
         <p>
           Passionate for developing modern frontend web app technologies for
-          commercial business purposes
+          commercial business purposes.
         </p>
         <a href={Resume} download>
           <button className="hover">Resume</button>
