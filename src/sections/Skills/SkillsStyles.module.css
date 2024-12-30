@@ -8,6 +8,12 @@
     flex-direction: column;
     align-items: center;
     gap: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  span:hover{
+    transform: rotate3d(0,1,0,360deg);
+    transition: transform 1200ms ease-in-out;
   }
 
   img {
@@ -20,11 +26,6 @@
     color: var(--text-color);
     font-family: "Roboto";
   }
-}
-
-.container:hover{
-  transform: rotate3d(0,1,0,360deg);
-  transition: transform 1500ms ease-in-out;
 }
 
 .skillList {
