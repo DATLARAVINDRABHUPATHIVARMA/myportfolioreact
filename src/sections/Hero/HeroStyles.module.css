@@ -6,6 +6,7 @@
   text-align: center;
   height: 100dvh;
   min-height: 500px;
+  margin-top: 50px;
 
   .hero {
     max-width: 200px;
@@ -91,9 +92,9 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  h1:hover {
+  h1:hover{
     transform: scale(1.05);
-    color: rgb(0, 109, 131);
+    color: #013837d1;
   }
 }
 
@@ -102,6 +103,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 10px;
     .Hero {
       height: 180px;
       width: 180px;
@@ -111,6 +113,11 @@
       width: 75px;
     }
   }
+  .info{
+    p{
+      margin-left: 5px;
+    }
+  }
 }
 
 @media (width >= 300px) {
@@ -118,6 +125,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 50px;
     .Hero {
       height: 240px;
       width: 240px;
@@ -134,6 +142,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
     .Hero {
       height: 320px;
       width: 320px;
@@ -145,7 +154,7 @@
   }
 }
 
-@media (width >= 1350px) {
+@media (width >= 1400px) {
   .container {
     flex-direction: row-reverse;
     align-items: center;
