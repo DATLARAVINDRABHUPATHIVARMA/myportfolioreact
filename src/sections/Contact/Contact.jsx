@@ -23,8 +23,7 @@ function Contact() {
     if (res.success) {
       Swal.fire({
         title: "Thank you for contacting me!",
-        width: 700,
-        padding: "3em"
+        width: 200,
       });
       
     }
