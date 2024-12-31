@@ -1,5 +1,6 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/hero-img.png";
+import heroImg from "../../assets/Skill Icons/arya.png";
+import heroImg1 from "../../assets/Skill Icons/arya1.png";
 import sun from "../../assets/sun.svg";
 import moon from '../../assets/moon.svg'
 import twitterLight from "../../assets/twitter-light.svg";
@@ -15,6 +16,7 @@ function Hero() {
   const { theme, toggleTheme } = useTheme();
 
   const themeIcon = theme === 'light' ? sun : moon;
+  const imgIcon = theme === 'light' ? heroImg : heroImg1
   const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
   const githubIcon = theme === 'light' ? githubLight : githubDark;
   const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
@@ -24,7 +26,7 @@ function Hero() {
       <div className={styles.colorModeContainer}>
         <img
           className={styles.Hero}
-          src={heroImg}
+          src={imgIcon}
           alt="profile picture of DATLA RAVINDRA BHUPATHI VARMA"
         />
         <img
