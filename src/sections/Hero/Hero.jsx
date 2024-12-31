@@ -2,7 +2,7 @@ import styles from "./HeroStyles.module.css";
 import heroImg from "../../assets/Skill Icons/myimage.jpg";
 import heroImg1 from "../../assets/Skill Icons/arya1.png";
 import sun from "../../assets/sun.svg";
-import moon from '../../assets/moon.svg'
+import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";
 import twitterDark from "../../assets/twitter-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
@@ -15,11 +15,11 @@ import { useTheme } from "../../common/ThemeContext";
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
-  const themeIcon = theme === 'light' ? sun : moon;
-  const imgIcon = theme === 'light' ? heroImg : heroImg1
-  const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
-  const githubIcon = theme === 'light' ? githubLight : githubDark;
-  const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
+  const themeIcon = theme === "light" ? sun : moon;
+  const imgIcon = theme === "light" ? heroImg : heroImg1;
+  const twitterIcon = theme === "light" ? twitterLight : twitterDark;
+  const githubIcon = theme === "light" ? githubLight : githubDark;
+  const linkedinIcon = theme === "light" ? linkedinLight : linkedinDark;
 
   return (
     <section id="hero" className={styles.container}>
@@ -54,9 +54,14 @@ function Hero() {
           Passionate for developing modern frontend web app technologies for
           commercial business purposes.
         </p>
-        <a href={Resume} download>
-          <button className="hover">Resume</button>
+        <div className={styles.btns}>
+        <a href='/' alt=''>
+          <button className={styles.hirebutton}>Hire Me</button>
         </a>
+        <a href={Resume} download>
+          <button className={styles.resumebutton}>Resume</button>
+        </a>
+        </div>
       </div>
     </section>
   );
