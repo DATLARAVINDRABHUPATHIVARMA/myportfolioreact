@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-
   img {
     max-width: 250px;
     align-self: center;
@@ -26,14 +25,34 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 30px;
+  gap: 20px;
 }
 
+@media (width >= 100px) {
+  .container {
+    margin-top: 150px;
+  }
+}
+
+@media (width >= 300px) {
+  .container {
+    margin-top: 200px;
+  }
+}
 @media (width >= 800px) {
+  .container {
+    margin-top: 175px;
+    
+  }
   .projectsContainer {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    padding: 0 30px;
+    padding: 0 20px;
+  }
+}
+@media (width >= 1300px) {
+  .container {
+    margin-top: 100px;
   }
 }
