@@ -1,6 +1,6 @@
 import styles from "./HeroStyles.module.css";
-import heroImg from "../../assets/Skill Icons/myimage.jpg";
-import heroImg1 from "../../assets/Skill Icons/arya1.png";
+import heroImg from "../../assets/Skill Icons/arya1.png";
+import heroImg1 from "../../assets/Skill Icons/arya.png";
 import sun from "../../assets/sun.svg";
 import moon from "../../assets/moon.svg";
 import twitterLight from "../../assets/twitter-light.svg";

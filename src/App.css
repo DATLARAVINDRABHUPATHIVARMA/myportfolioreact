@@ -6,7 +6,8 @@
   --text-color: #222;
   --form-text-color: #555;
   --footer-text-color: #888;
-  --hire-color: rgb(156, 239, 48);
+  --hire-color: rgb(255, 166, 0);
+  --comhead-color: rgb(2, 2, 86);
 }
 
 [data-theme='dark'] {
@@ -18,6 +19,7 @@
   --form-text-color: #fff;
   --footer-text-color: #bbb;
   --hire-color: rgb(47, 183, 19);
+  --comhead-color: rgb(218, 203, 5);
 }
 
 body {
