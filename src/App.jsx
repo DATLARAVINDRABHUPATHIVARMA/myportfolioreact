@@ -1,5 +1,5 @@
 import "./App.css";
-import Navbar from "./common/Navbar/Navbar";
+import Navbar from "./sections/Navbar/Navbar";
 import Contact from "./sections/Contact/Contact";
 import Footer from "./sections/Footer/Footer";
 import Hero from "./sections/Hero/Hero";
