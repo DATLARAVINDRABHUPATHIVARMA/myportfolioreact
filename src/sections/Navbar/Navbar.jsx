@@ -12,9 +12,9 @@ function Navbar() {
 
   return (
     <header id="home">
-      <a href="#h1"><img src={logo} className="logo" /></a>
+      <a href="https://ravindraporfolio.vercel.app/"><img src={logo} className="logo" /></a>
       <nav ref={navRef}>
-        <a href="#home">Home</a>
+        <a href="https://ravindraporfolio.vercel.app/">Home</a>
         <a href="#ya">About Me</a>
         <a href="#projects">My Projects</a>
         <a href="#skills">Skills</a>
