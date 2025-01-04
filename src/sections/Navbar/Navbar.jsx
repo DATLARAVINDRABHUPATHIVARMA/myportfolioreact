@@ -12,10 +12,10 @@ function Navbar() {
 
   return (
     <header id="home">
-      <a href="#home"><img src={logo} className="logo" /></a>
+      <a href="#h1"><img src={logo} className="logo" /></a>
       <nav ref={navRef}>
-        <a href="#hero">Home</a>
-        <a href="#h1">About Me</a>
+        <a href="#home">Home</a>
+        <a href="#ya">About Me</a>
         <a href="#projects">My Projects</a>
         <a href="#skills">Skills</a>
         <a href="#contact">Contact Me</a>

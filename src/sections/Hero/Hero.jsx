@@ -25,7 +25,7 @@ function Hero() {
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img
-          className={styles.Hero}
+          id = "ya" className={styles.Hero}
           src={imgIcon}
           alt="profile picture of DATLA RAVINDRA BHUPATHI VARMA"
         />
