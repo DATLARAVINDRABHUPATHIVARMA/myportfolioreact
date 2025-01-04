@@ -11,14 +11,14 @@ function Navbar() {
   };
 
   return (
-    <header>
-      <img src={logo} className="logo"/>
+    <header id="home">
+      <a href="#home"><img src={logo} className="logo" /></a>
       <nav ref={navRef}>
-        <a href="/#">Home</a>
-        <a href="/#">About Me</a>
-        <a href="/#">My Projects</a>
-        <a href="/#">Skills</a>
-        <a href="/#">Contact Me</a>
+        <a href="#hero">Home</a>
+        <a href="#h1">About Me</a>
+        <a href="#projects">My Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact Me</a>
         <button className="nav-btn nav-close-btn" onClick={showNavbar}>
           <FaTimes />
         </button>

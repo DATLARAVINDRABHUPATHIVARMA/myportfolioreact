@@ -8,7 +8,7 @@ import Skills from "./sections/Skills/Skills";
 
 function App() {
   return (
-    <>
+<>
       <Navbar />
       <Hero />
       <Projects />

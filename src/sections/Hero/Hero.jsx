@@ -37,7 +37,7 @@ function Hero() {
         />
       </div>
       <div className={styles.info}>
-        <h1>DATLA RAVINDRA BHUPATHI VARMA</h1>
+        <h1 id='h1'>DATLA RAVINDRA BHUPATHI VARMA</h1>
         <h2>FullStack Developer</h2>
         <span>
           <a href="https://www.github.com/" target="_blank">
@@ -55,7 +55,7 @@ function Hero() {
           commercial business purposes.
         </p>
         <div className={styles.btns}>
-        <a href='/' alt=''>
+        <a href='#contact' alt=''>
           <button className={styles.hirebutton}>Hire Me</button>
         </a>
         <a href={Resume} download>
