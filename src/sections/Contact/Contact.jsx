@@ -33,7 +33,7 @@ function Contact() {
       <h1 className="sectionTitle">Contact</h1>
       <form onSubmit={onSubmit}>
         <div className="formGroup">
-          <label htmlFor="name" hidden>
+          <label htmlFor="name" hidden> 
             Name
           </label>
           <input
